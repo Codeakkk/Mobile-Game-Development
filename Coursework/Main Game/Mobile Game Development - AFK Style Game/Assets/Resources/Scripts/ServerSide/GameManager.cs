@@ -3,14 +3,15 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 
-    public int dabloonsAmount = 0;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float dabloonsAmount;
+
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
