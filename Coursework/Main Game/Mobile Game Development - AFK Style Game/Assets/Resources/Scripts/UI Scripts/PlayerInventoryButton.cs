@@ -1,7 +1,12 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerInventoryButton : MonoBehaviour
 {
+
+    public void PlayerInventoryScene()
+    {
+        SceneManager.LoadScene("PlayerInventory");
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
