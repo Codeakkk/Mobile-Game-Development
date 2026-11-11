@@ -2106,10 +2106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33bdc06303c29724889c8c49c8290888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  dabloonsAmount: 0
-  perClick: 2
-  DabloonsUI: {fileID: 0}
-  MultiplierAmount: 1
+  DabloonsUI: {fileID: 671108900}
 --- !u!114 &1977859950
 MonoBehaviour:
   m_ObjectHideFlags: 0

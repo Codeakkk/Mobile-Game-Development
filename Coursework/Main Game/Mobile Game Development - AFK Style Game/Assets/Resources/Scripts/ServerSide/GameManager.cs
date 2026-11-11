@@ -9,9 +9,11 @@ public class GameManager : MonoBehaviour
     public static int perClick = 2;
 
 
-    public TextMeshProUGUI DabloonsUI;
 
-    public static int MultiplierAmount = 1; 
+    public static int MultiplierAmount = 1;
+
+    [Header("UI")]
+    public TextMeshProUGUI DabloonsUI;
 
     public void Press()
     {
@@ -19,9 +21,13 @@ public class GameManager : MonoBehaviour
         Debug.LogWarning(dabloonsAmount);
     }
 
+    public void UpdateUI()
+    {
+        DabloonsUI.text = dabloonsAmount.ToString();
+    }
     
     void Update()
     {
-        
+        UpdateUI();
     }
 }
