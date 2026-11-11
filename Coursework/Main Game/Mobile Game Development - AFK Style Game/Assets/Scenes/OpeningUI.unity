@@ -554,7 +554,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 456171519}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1977859951}
+        m_TargetAssemblyTypeName: CharacterSelectionButton, Assembly-CSharp
+        m_MethodName: CharacterSelectionScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &456171519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -812,7 +824,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 623185196}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1977859950}
+        m_TargetAssemblyTypeName: TavernShopButton, Assembly-CSharp
+        m_MethodName: ShopScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &623185196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1284,7 +1308,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1066320980}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1977859953}
+        m_TargetAssemblyTypeName: PlayerInventoryButton, Assembly-CSharp
+        m_MethodName: PlayerInventoryScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1066320980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1405,7 +1441,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1144622116}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1977859952}
+        m_TargetAssemblyTypeName: IndexButton, Assembly-CSharp
+        m_MethodName: IndexScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1144622116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2059,6 +2107,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1977859948}
   - component: {fileID: 1977859949}
+  - component: {fileID: 1977859950}
+  - component: {fileID: 1977859952}
+  - component: {fileID: 1977859951}
+  - component: {fileID: 1977859953}
+  - component: {fileID: 1977859954}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2093,10 +2146,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33bdc06303c29724889c8c49c8290888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  dabloonsAmount: 0
-  perClick: 5
-  DabloonsUI: {fileID: 0}
-  MultiplierAmount: 1
+  DabloonsUI: {fileID: 671108900}
+--- !u!114 &1977859950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977859947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0430f82ab1cfa22469737bbaf147bbd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TavernShopButton
+--- !u!114 &1977859951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977859947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052219b2f5e4dff46bdf9f1857a16360, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterSelectionButton
+--- !u!114 &1977859952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977859947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0175999fe14675b44be4750d65a63bcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IndexButton
+--- !u!114 &1977859953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977859947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07d677dde6c0c624b807294c1a7da05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInventoryButton
+--- !u!114 &1977859954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977859947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82503a0b48cc834428e04d44d4c357d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BackButton
 --- !u!1 &2078948090
 GameObject:
   m_ObjectHideFlags: 0
