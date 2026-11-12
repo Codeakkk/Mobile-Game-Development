@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
             {
                 MultiplierAmount = MultiplierAmount + 0.15;
                 dabloonsAmount = dabloonsAmount - 5000;
+                PlayerCharacters++;
             } else
             {
                 Debug.LogWarning("Player Has Exceeded Character Limit");
@@ -41,6 +42,7 @@ public class GameManager : MonoBehaviour
             {
                 MultiplierAmount = MultiplierAmount + 0.25;
                 dabloonsAmount = dabloonsAmount - 5000;
+                PlayerCharacters++;
             }
             else
             {
