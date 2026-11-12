@@ -3,10 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class IndexButton : MonoBehaviour
 {
-
+    [SerializeField] private GameObject IOSHaptic;
 
     public void IndexScene()
     {
+        IOSHaptic.GetComponent<IOSHaptics>().PlayImpact(ImpactStyle.Medium);
         SceneManager.LoadScene("Index");
     }
 

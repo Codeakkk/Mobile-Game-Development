@@ -2217,6 +2217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 052219b2f5e4dff46bdf9f1857a16360, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSelectionButton
+  IOSHaptic: {fileID: 676778801}
 --- !u!114 &1977859952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2229,6 +2230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0175999fe14675b44be4750d65a63bcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IndexButton
+  IOSHaptic: {fileID: 676778801}
 --- !u!114 &1977859953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2241,6 +2243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d677dde6c0c624b807294c1a7da05e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInventoryButton
+  IOSHaptic: {fileID: 676778801}
 --- !u!114 &1977859954
 MonoBehaviour:
   m_ObjectHideFlags: 0
