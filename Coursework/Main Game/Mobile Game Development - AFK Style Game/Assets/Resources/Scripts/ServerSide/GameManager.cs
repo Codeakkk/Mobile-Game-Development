@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     
     public static long dabloonsAmount;
     public static int perClick = 2;
-    public static int PlayerCharacters;
+    public static int PlayerCharacters = 1;
 
 
     public static double MultiplierAmount = 1;
@@ -52,6 +52,9 @@ public class GameManager : MonoBehaviour
 
     }
 
+
+
+
     public void Press()
     {
         dabloonsAmount = dabloonsAmount + (long)(perClick * MultiplierAmount);
@@ -66,5 +69,12 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         UpdateUI();
+
+        timer += Time.deltaTime;
+
+        if (timer > 1)
+        {
+            dabloonsAmount = dabloonsAmount + 2 * PlayerCharacters
+        }
     }
 }
