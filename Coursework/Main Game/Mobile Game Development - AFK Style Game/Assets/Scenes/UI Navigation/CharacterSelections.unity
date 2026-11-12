@@ -1336,6 +1336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33bdc06303c29724889c8c49c8290888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  timer: 0
   DabloonsUI: {fileID: 729612548}
 --- !u!114 &475829203
 MonoBehaviour:
@@ -1963,7 +1964,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 475829201}
         m_TargetAssemblyTypeName: TavernShopButton, Assembly-CSharp
-        m_MethodName: ShopScene
+        m_MethodName: TavernScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

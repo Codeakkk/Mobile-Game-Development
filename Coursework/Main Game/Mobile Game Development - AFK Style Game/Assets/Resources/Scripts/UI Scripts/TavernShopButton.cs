@@ -4,9 +4,14 @@ using UnityEngine.SceneManagement;
 public class TavernShopButton : MonoBehaviour
 {
 
-    public void ShopScene()
+    public void TavernScene()
     {
         SceneManager.LoadScene("TavernShops");
+    }
+
+    public void ShopScene()
+    {
+        SceneManager.LoadScene("CharShop");
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
