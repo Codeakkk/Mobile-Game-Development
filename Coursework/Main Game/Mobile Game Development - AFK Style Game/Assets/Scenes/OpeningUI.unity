@@ -1012,6 +1012,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671108898}
   m_CullTransparentMesh: 1
+--- !u!1 &676778801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 676778803}
+  - component: {fileID: 676778802}
+  m_Layer: 0
+  m_Name: IOSHaptics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &676778802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676778801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ddf37f9cd1acc44ba1db5e711b92094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IOSHaptics
+--- !u!4 &676778803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676778801}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 695.49817, y: 1152.6196, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &831836342
 GameObject:
   m_ObjectHideFlags: 0
@@ -2160,6 +2204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0430f82ab1cfa22469737bbaf147bbd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TavernShopButton
+  IOSHaptic: {fileID: 676778801}
 --- !u!114 &1977859951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2208,6 +2253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82503a0b48cc834428e04d44d4c357d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackButton
+  IOSHaptic: {fileID: 676778801}
 --- !u!1 &2078948090
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,3 +2536,4 @@ SceneRoots:
   - {fileID: 1977859948}
   - {fileID: 1643472938}
   - {fileID: 301010822}
+  - {fileID: 676778803}

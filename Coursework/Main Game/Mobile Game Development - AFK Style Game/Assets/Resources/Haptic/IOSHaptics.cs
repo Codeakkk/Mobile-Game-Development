@@ -14,21 +14,21 @@ public class IOSHaptics : MonoBehaviour
     private static extern void _PlaySelection();
 #endif
 
-    public static void PlayImpact(ImpactStyle style)
+    public void PlayImpact(ImpactStyle style)
     {
 #if UNITY_IOS && !UNITY_EDITOR
         _PlayImpact((int)style);
 #endif
     }
 
-    public static void PlayNotification(NotificationType type)
+    public void PlayNotification(NotificationType type)
     {
 #if UNITY_IOS && !UNITY_EDITOR
         _PlayNotification((int)type);
 #endif
     }
 
-    public static void PlaySelection()
+    public void PlaySelection()
     {
 #if UNITY_IOS && !UNITY_EDITOR
         _PlaySelection();
