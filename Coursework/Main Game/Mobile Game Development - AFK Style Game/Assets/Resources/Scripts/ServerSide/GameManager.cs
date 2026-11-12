@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public static long dabloonsAmount;
     public static int perClick = 2;
     public static int PlayerCharacters = 1;
-
+    public float timer;
 
     public static double MultiplierAmount = 1;
 
@@ -72,9 +72,10 @@ public class GameManager : MonoBehaviour
 
         timer += Time.deltaTime;
 
-        if (timer > 1)
+        if (timer > 1f)
         {
-            dabloonsAmount = dabloonsAmount + 2 * PlayerCharacters
+            dabloonsAmount = dabloonsAmount + 2 * PlayerCharacters;
+            timer -= 1f;
         }
     }
 }
