@@ -2456,9 +2456,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1165097520}
-        m_TargetAssemblyTypeName: TavernShopButton, Assembly-CSharp
-        m_MethodName: ShopScene
+      - m_Target: {fileID: 1165097524}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: SecondMultiplier
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2786,6 +2786,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 1069472850}
   - {fileID: 1817059053}
-  - {fileID: 1165097525}
   - {fileID: 453982444}
   - {fileID: 1240130024}
+  - {fileID: 1165097525}
