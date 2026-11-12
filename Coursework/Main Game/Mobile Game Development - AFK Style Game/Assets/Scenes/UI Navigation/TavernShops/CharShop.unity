@@ -119,6 +119,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &152926194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 152926196}
+  - component: {fileID: 152926195}
+  m_Layer: 0
+  m_Name: IOSHaptics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &152926195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152926194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ddf37f9cd1acc44ba1db5e711b92094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IOSHaptics
+--- !u!4 &152926196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152926194}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 695.49817, y: 1152.6196, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &155124829
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,6 +1470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82503a0b48cc834428e04d44d4c357d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackButton
+  IOSHaptic: {fileID: 152926194}
 --- !u!114 &1165097520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1438,6 +1483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0430f82ab1cfa22469737bbaf147bbd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TavernShopButton
+  IOSHaptic: {fileID: 152926194}
 --- !u!114 &1165097521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1450,6 +1496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d677dde6c0c624b807294c1a7da05e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInventoryButton
+  IOSHaptic: {fileID: 152926194}
 --- !u!114 &1165097522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1462,6 +1509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 052219b2f5e4dff46bdf9f1857a16360, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSelectionButton
+  IOSHaptic: {fileID: 152926194}
 --- !u!114 &1165097523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1474,6 +1522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0175999fe14675b44be4750d65a63bcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IndexButton
+  IOSHaptic: {fileID: 152926194}
 --- !u!114 &1165097524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2790,3 +2839,4 @@ SceneRoots:
   - {fileID: 453982444}
   - {fileID: 1240130024}
   - {fileID: 1165097525}
+  - {fileID: 152926196}
